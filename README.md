@@ -19,7 +19,6 @@
 
 ---
 #### :whale: Wordpress with AWS Elastic Beanstalk 
-##### :unicorn: Download wordpress image and run on docker 
 ###### :unicorn: Install/Configure AWSCLI and EBCLI
 
 `cd ~/wordpress/`
