@@ -14,6 +14,7 @@
 `cd ~/wordpress/`
 ##### :unicorn: Docker compose up & down  
 `docker-compose up -d`
+
 `docker-compose down --volume`
 
 ---
@@ -24,6 +25,7 @@
 `cd ~/wordpress/`
 ###### :unicorn: Prepare eb environment and **Dockerrun.aws.json** file
 `eb init`
+
 `eb create wordpress-eb-env`
 
 
