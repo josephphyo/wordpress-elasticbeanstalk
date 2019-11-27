@@ -1,7 +1,8 @@
 # Wordpress Deployment with Docker & AWS Elastic Beanstalk
 
-> mkdir ~/wordpress/
-> cd ~/wordpress/
+:computer: mkdir ~/wordpress/
+
+:computer: cd ~/wordpress/
 #### :whale: Wordpress with Docker 
 ##### :unicorn: Download and run Mariadb latest on docker 
 `docker run -e MYSQL_ROOT_PASSWORD=(dbpassword) -e MYSQL_DATABASE=wordpress --name wordpressdb -v "$PWD/database":/var/lib/mysql -d mariadb:latest`
